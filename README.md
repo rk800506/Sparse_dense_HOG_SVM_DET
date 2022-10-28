@@ -5,6 +5,9 @@ Repository hosting code for sparse dense sampling based 2 stage HOG-SVM object d
 This repository hsots the code for the work presented in **A Sparse-Dense HOG Window Sampling Technique for Fast Pedestrian Detection in Aerial Images**.
 A Two stage sparse-dense sampling based technique has been presented that fastens up the standard object detection using HOG-SVM classifier. First stage (spase sampling) filters out the most relevant regions in an image quickly, the second stage (dense sampling) only checks the proposed regions for any object.
 
+![2 stage block diag(1)](https://user-images.githubusercontent.com/37348142/198520453-f1b4aa19-912c-4635-b4a1-290857637c95.png)
+
+
 Standard aerial image dataset **UAV123** has been used to validate the technique. The dataset (modified to train the classifier) used in this work can be downloaded from https://drive.google.com/file/d/1RAgHgdAeXSSNMbc2kPp_wzUvwD2HKS8G/view?usp=sharing.
 
 #### Note:
