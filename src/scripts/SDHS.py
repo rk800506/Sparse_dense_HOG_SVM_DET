@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from SDHS_lib import*
 
 from skimage.feature import hog
